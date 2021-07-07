@@ -6,6 +6,8 @@ package 'git' do
   action :install
 end
 
+package 'vim'
+
 package 'ntp' do
   action :install
 end
